@@ -1,0 +1,12 @@
+server:
+  port: 9098
+
+spring:
+  application:
+    name: oauth2-sso-app
+  profiles:
+    active: oracle
+
+front:
+   end:
+     url: 'http://127.0.0.1:9090/'
